@@ -3,9 +3,9 @@
 //created a promise using promise constructor to make an asynchronous call either resolve or reject
 let p = new Promise((resolve, reject) => {
     //defining variable a
-    let a = 1 + 1;
+    let a = "";
     //using if condition here the output is successfull promise, the call to resolve moves the promise object to resolved state.
-    if (a == 2) {
+    if (a == "") {
       resolve("Success");
     } else {
       reject("Failed");
